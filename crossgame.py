@@ -5,37 +5,37 @@ flag = 0
 count=0
 def check():
     if btn00['text']==btn01['text']==btn02['text']=='O':
-        messagebox.showinfo("game ended", "{} won!".format('O'))
+        messagebox.showinfo("game ended", 'Player 1 Win')
     elif btn00['text']==btn01['text']==btn02['text']=='X':
-        messagebox.showinfo("game ended", "{} won!".format('X'))
+        messagebox.showinfo("game ended", 'Player 2 Win')
     elif btn10['text']==btn11['text']==btn12['text']=='O':
-        messagebox.showinfo("game ended", "{} won!".format('O'))
+        messagebox.showinfo("game ended", 'Player 1 Win')
     elif btn10['text']==btn11['text']==btn12['text']=='X':
-        messagebox.showinfo("game ended", "{} won!".format('X'))
+        messagebox.showinfo("game ended", 'Player 2 Win')
     elif btn20['text']==btn21['text']==btn22['text']=='O':
-        messagebox.showinfo("game ended", "{} won!".format('O'))
+        messagebox.showinfo("game ended", 'Player 1 Win')
     elif btn20['text']==btn21['text']==btn22['text']=='X':
-        messagebox.showinfo("game ended", "{} won!".format('X'))
+        messagebox.showinfo("game ended", 'Player 2 Win')
     elif btn00['text']==btn10['text']==btn20['text']=='O':
-        messagebox.showinfo("game ended", "{} won!".format('O'))
+        messagebox.showinfo("game ended", 'Player 1 Win')
     elif btn00['text']==btn10['text']==btn20['text']=='X':
-        messagebox.showinfo("game ended", "{} won!".format('X'))
+        messagebox.showinfo("game ended", 'Player 2 Win')
     elif btn01['text']==btn11['text']==btn21['text']=='O':
-        messagebox.showinfo("game ended", "{} won!".format('O'))
+        messagebox.showinfo("game ended", 'Player 1 Win')
     elif btn01['text']==btn11['text']==btn21['text']=='X':
-        messagebox.showinfo("game ended", "{} won!".format('X'))
+        messagebox.showinfo("game ended", 'Player 2 Win')
     elif btn02['text']==btn12['text']==btn22['text']=='O':
-        messagebox.showinfo("game ended", "{} won!".format('O'))
+        messagebox.showinfo("game ended",'Player 1 Win')
     elif btn02['text']==btn12['text']==btn22['text']=='X':
-        messagebox.showinfo("game ended", "{} won!".format('X'))
+        messagebox.showinfo("game ended", 'Player 2 Win')
     elif btn00['text']==btn11['text']==btn22['text']=='O':
-        messagebox.showinfo("game ended", "{} won!".format('O'))
+        messagebox.showinfo("game ended",'Player 1 Win')
     elif btn00['text']==btn11['text']==btn22['text']=='X':
-        messagebox.showinfo("game ended", "{} won!".format('X'))
+        messagebox.showinfo("game ended",'Player 2 Win')
     elif btn02['text']==btn11['text']==btn20['text']=='O':
-        messagebox.showinfo("game ended", "{} won!".format('O'))
+        messagebox.showinfo("game ended", 'Player 1 Win')
     elif btn02['text']==btn11['text']==btn20['text']=='X':
-        messagebox.showinfo("game ended", "{} won!".format('X'))
+        messagebox.showinfo("game ended", 'Player 2 Win')
     else:
         if count==9:
             messagebox.showinfo("game ended", "Draw!")
