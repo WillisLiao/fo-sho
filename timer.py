@@ -23,7 +23,7 @@ lab0.pack()
 run_counter(lab0)
 btnExit = Button(window, width=15, height=2,
                 text="Exit",
-                foreground="ff2233",
+                foreground="#ff2233",
                 font="Arial 20 bold",
                 command=window.destroy)
 btnExit.pack(pady=10)
